@@ -1,4 +1,4 @@
-FROM node:frogasia/alpine-node-sass
+FROM node:alpine
 WORKDIR '/app'
 COPY package*.json ./
 RUN npm install
